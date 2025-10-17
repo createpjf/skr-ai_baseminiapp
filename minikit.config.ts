@@ -1,4 +1,4 @@
-const ROOT_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://skr-ai-miniapp.vercel.app';
+const ROOT_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://skr-ai-baseminiapp-l1a7.vercel.app';
 
 export const minikitConfig = {
   accountAssociation: {
