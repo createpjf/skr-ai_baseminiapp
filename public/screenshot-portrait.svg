@@ -1,0 +1,18 @@
+<svg width="300" height="600" viewBox="0 0 300 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="600" rx="20" fill="#F3F4F6"/>
+  <rect x="20" y="40" width="260" height="40" rx="20" fill="#007AFF"/>
+  <text x="150" y="65" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Skr.AI</text>
+  <rect x="20" y="100" width="260" height="50" rx="25" fill="white" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="40" y="130" fill="#6B7280" font-family="Arial, sans-serif" font-size="14">Ask anything...</text>
+  <rect x="20" y="180" width="260" height="200" rx="15" fill="white" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="30" y="210" fill="#1F2937" font-family="Arial, sans-serif" font-size="14" font-weight="bold">AI Answer</text>
+  <text x="30" y="240" fill="#4B5563" font-family="Arial, sans-serif" font-size="12">This is a sample AI response...</text>
+  <text x="30" y="260" fill="#4B5563" font-family="Arial, sans-serif" font-size="12">The AI can provide intelligent</text>
+  <text x="30" y="280" fill="#4B5563" font-family="Arial, sans-serif" font-size="12">answers to your questions.</text>
+  <rect x="20" y="400" width="80" height="30" rx="15" fill="#007AFF"/>
+  <text x="60" y="420" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Search</text>
+  <rect x="110" y="400" width="80" height="30" rx="15" fill="#F3F4F6"/>
+  <text x="150" y="420" text-anchor="middle" fill="#6B7280" font-family="Arial, sans-serif" font-size="12">Copy</text>
+  <rect x="200" y="400" width="80" height="30" rx="15" fill="#F3F4F6"/>
+  <text x="240" y="420" text-anchor="middle" fill="#6B7280" font-family="Arial, sans-serif" font-size="12">Regenerate</text>
+</svg>

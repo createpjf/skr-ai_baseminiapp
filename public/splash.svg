@@ -1,0 +1,7 @@
+<svg width="400" height="800" viewBox="0 0 400 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="800" fill="#007AFF"/>
+  <circle cx="200" cy="300" r="80" fill="white" opacity="0.9"/>
+  <path d="M160 280L200 240L240 280L200 320L160 280Z" fill="#007AFF"/>
+  <text x="200" y="450" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="32" font-weight="bold">Skr.AI</text>
+  <text x="200" y="490" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18">AI Search Assistant</text>
+</svg>

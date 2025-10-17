@@ -1,0 +1,16 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="url(#gradient)"/>
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#007AFF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle cx="200" cy="200" r="80" fill="white" opacity="0.9"/>
+  <path d="M160 160L200 120L240 160L200 200L160 160Z" fill="#007AFF"/>
+  <text x="400" y="200" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="72" font-weight="bold">Skr.AI</text>
+  <text x="400" y="260" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="36">AI Search Assistant</text>
+  <text x="400" y="320" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" opacity="0.9">Ask anything, get intelligent answers</text>
+  <text x="400" y="380" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" opacity="0.8">Powered by Base Mini App</text>
+</svg>
