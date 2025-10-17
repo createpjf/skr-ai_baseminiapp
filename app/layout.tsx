@@ -1,13 +1,17 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import './globals.css';
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#007AFF',
+};
 
 export const metadata: Metadata = {
   title: 'Skr.AI - AI Search Assistant',
   description: 'Intelligent AI-powered search with real-time web search and multi-language support',
   keywords: 'AI search, Base Mini App, artificial intelligence, search tools, machine learning',
   authors: [{ name: 'Skr.AI Team' }],
-  viewport: 'width=device-width, initial-scale=1',
-  themeColor: '#007AFF',
   openGraph: {
     title: 'Skr.AI - AI Search Assistant',
     description: 'Intelligent AI-powered search with real-time web search and multi-language support',
@@ -17,7 +21,7 @@ export const metadata: Metadata = {
     siteName: 'Skr.AI Mini App',
     images: [
       {
-        url: '/og-image.png',
+        url: '/og-image.svg',
         width: 1200,
         height: 630,
         alt: 'Skr.AI - AI Search Assistant',
@@ -28,7 +32,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Skr.AI - AI Search Assistant',
     description: 'Intelligent AI-powered search with real-time web search and multi-language support',
-    images: ['/og-image.png'],
+    images: ['/og-image.svg'],
   },
   robots: {
     index: true,
