@@ -14,7 +14,6 @@ export async function GET() {
       "description": "Intelligent AI-powered search with real-time web search and multi-language support",
       "screenshotUrls": ["/screenshot-portrait.svg"],
       "iconUrl": "/icon.svg",
-      "imageUrl": "/screenshot-portrait.svg",
       "splashImageUrl": "/splash.svg",
       "splashBackgroundColor": "#007AFF",
       "homeUrl": "/",
