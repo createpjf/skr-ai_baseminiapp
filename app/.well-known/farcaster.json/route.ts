@@ -21,6 +21,11 @@ export async function GET() {
       "webhookUrl": "/api/webhook",
       "primaryCategory": "productivity",
       "tags": ["ai", "search", "productivity", "assistant", "multilingual"],
+      "heroImageUrl": "/screenshot-portrait.svg",
+      "tagline": "Ask anything, get intelligent answers",
+      "ogTitle": "Skr.AI - AI Search Assistant",
+      "ogDescription": "Intelligent AI-powered search with real-time web search and multi-language support",
+      "ogImageUrl": "/screenshot-portrait.svg",
       "baseBuilder": {
         "ownerAddress": "0x1a37df55f8201f92A419290616f2dbDBd70E49E9"
       }
