@@ -24,28 +24,36 @@ export default function Home() {
 
   // 从URL参数获取初始查询
   useEffect(() => {
-    const urlQuery = searchParams.get('q');
-    if (urlQuery) {
-      // 这里先不调用handleSearch，避免循环依赖
-      setQuery(urlQuery);
+    try {
+      const urlQuery = searchParams.get('q');
+      if (urlQuery) {
+        // 这里先不调用handleSearch，避免循环依赖
+        setQuery(urlQuery);
+      }
+    } catch (error) {
+      console.error('Error getting search params:', error);
     }
   }, [searchParams]);
 
   // 从localStorage加载搜索历史和语言设置
   useEffect(() => {
-    const savedHistory = localStorage.getItem('skr-ai-history');
-    if (savedHistory) {
-      try {
-        setSearchHistory(JSON.parse(savedHistory));
-      } catch (error) {
-        console.error('加载搜索历史失败:', error);
+    try {
+      const savedHistory = localStorage.getItem('skr-ai-history');
+      if (savedHistory) {
+        try {
+          setSearchHistory(JSON.parse(savedHistory));
+        } catch (error) {
+          console.error('加载搜索历史失败:', error);
+        }
       }
-    }
 
-    const savedLang = localStorage.getItem('skr-ai-language') as 'en' | 'zh';
-    if (savedLang) {
-      setCurrentLang(savedLang);
-      setT(translations[savedLang]);
+      const savedLang = localStorage.getItem('skr-ai-language') as 'en' | 'zh';
+      if (savedLang) {
+        setCurrentLang(savedLang);
+        setT(translations[savedLang]);
+      }
+    } catch (error) {
+      console.error('localStorage error:', error);
     }
   }, []);
 

@@ -90,9 +90,9 @@ export function FlowingLights() {
 export function ParticleLights() {
   return (
     <div className="absolute inset-0 pointer-events-none" style={{ zIndex: 1 }}>
-      {[...Array(20)].map((_, index) => (
+      {[...Array(20)].map((_, i) => (
         <div
-          key={index}
+          key={i}
           className="absolute w-1 h-1 bg-blue-400 rounded-full animate-pulse"
           style={{
             left: `${Math.random() * 100}%`,
